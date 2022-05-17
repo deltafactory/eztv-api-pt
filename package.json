@@ -12,8 +12,8 @@
     "coveralls": "^3.0.1",
     "eslint": "^5.0.0-alpha.3",
     "eslint-config-vixo": "^2.1.0",
-    "mocha": "^5.1.1",
-    "nyc": "^11.7.3"
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0"
   },
   "license": "MIT",
   "scripts": {

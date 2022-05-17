@@ -59,7 +59,7 @@ module.exports = class EztvApi {
    * @param {!Object} config={} - The configuration object for the module.
    * @param {!string} baseUrl=https://eztv.ag/ - The base url of eztv.
    */
-  constructor({baseUrl = 'https://eztv.ag/'} = {}) {
+  constructor({ baseUrl = 'https://eztv.ag/' } = {}) {
     /**
      * The base url of eztv.
      * @type {string}
@@ -547,7 +547,7 @@ module.exports = class EztvApi {
    * @returns {Promise<ApiResponse, Error>} - The response object of an API
    * call.
    */
-  getTorrents({page = 1, limit = 30, imdb} = {}) {
+  getTorrents({ page = 1, limit = 30, imdb } = {}) {
     let imdbId
     if (typeof imdb === 'string' && imdb.startsWith('tt')) {
       imdbId = imdb.substring(2, imdb.length)
